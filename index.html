@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurant Menu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f9f9;
+      color: #2c3e50;
+      padding: 20px;
+    }
+
+    .menu-container {
+      max-width: 900px;
+      margin: auto;
+      padding: 10px;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 5px;
+    }
+
+    .logo img {
+      height: 150px;
+    }
+
+    .menu-title {
+      text-align: center;
+      font-size: 1.5rem; 
+      color: #1a3c40;
+      margin-bottom: 2px;
+      border-bottom: 3px solid #1abc9c;
+      display: inline-block;
+    }
+
+    .menu-category {
+      font-size: 1.6rem;
+      color: #1abc9c;
+      margin: 40px 0 20px;
+      border-left: 6px solid #17a589;
+      padding-left: 12px;
+    }
+
+    .menu-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #ccc;
+      font-size: 1.05rem;
+    }
+
+    .menu-item span {
+      color: #34495e;
+    }
+
+    .price {
+      color: #17a589;
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      .menu-title {
+        font-size: 1.5rem;
+      }
+
+      .menu-category {
+        font-size: 1.3rem;
+      }
+
+      .menu-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .price {
+        margin-top: 5px;
+      }
+    }
+
+.footer {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color: #eafaf7;
+  color: #2c3e50;
+  border-top: 2px solid #1abc9c;
+  font-size: 0.95rem;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <div class="logo">
+      <img src="C:\Users\likhi\Downloads\hq720-removebg-preview.png" alt="Restaurant Logo">
+    </div>
+
+    <h1 class="menu-title">A festival of flavors</h1>
+
+    <div class="menu-category">Starters</div>
+    <ul class="menu-list">
+      <li class="menu-item"><span>Paneer Tikka</span> <span class="price">₹180</span></li>
+      <li class="menu-item"><span>Chicken 65</span> <span class="price">₹220</span></li>
+      <li class="menu-item"><span>Crispy Corn</span> <span class="price">₹160</span></li>
+    </ul>
+
+    <div class="menu-category">Main Course</div>
+    <ul class="menu-list">
+      <li class="menu-item"><span>Butter Chicken</span> <span class="price">₹280</span></li>
+      <li class="menu-item"><span>Paneer Butter Masala</span> <span class="price">₹200</span></li>
+      <li class="menu-item"><span>Dal Tadka</span> <span class="price">₹140</span></li>
+    </ul>
+
+    <div class="menu-category">Biryani</div>
+    <ul class="menu-list">
+      <li class="menu-item"><span>Veg Biryani</span> <span class="price">₹180</span></li>
+      <li class="menu-item"><span>Chicken Biryani</span> <span class="price">₹260</span></li>
+      <li class="menu-item"><span>Mutton Biryani</span> <span class="price">₹320</span></li>
+    </ul>
+
+    <div class="menu-category">Beverages</div>
+    <ul class="menu-list">
+      <li class="menu-item"><span>Cold Coffee</span> <span class="price">₹90</span></li>
+      <li class="menu-item"><span>Mango Lassi</span> <span class="price">₹80</span></li>
+      <li class="menu-item"><span>Fresh Lime Soda</span> <span class="price">₹60</span></li>
+    </ul>
+
+    <div class="menu-category">Desserts</div>
+    <ul class="menu-list">
+      <li class="menu-item"><span>Gulab Jamun</span> <span class="price">₹60</span></li>
+      <li class="menu-item"><span>Chocolate Brownie</span> <span class="price">₹100</span></li>
+      <li class="menu-item"><span>Ice Cream Scoop</span> <span class="price">₹50</span></li>
+    </ul>
+  </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p><strong>Spice & Aroma Restaurant</strong></p>
+        <p>123 Flavor Street, Hyderabad, India</p>
+        <p>📞 +91 98765 43210 |✉️ info@spiceandaroma.com</p>
+        <p>Open Daily: 11:00 AM – 11:00 PM</p>
+      </div>
+    </footer>
+
+</body>
+</html>
